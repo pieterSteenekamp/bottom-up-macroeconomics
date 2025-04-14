@@ -1,3 +1,17 @@
+I've made extensive use of AI throughout this project. While the overall framework and concept are my own, many of the finer details were refined with the help of various AI tools.
+Special thanks to:
+ChatGPT
+Claude
+Grok
+Microsoft Copilot
+
+I used only the free versions of these platforms, iterating across them to improve different parts of the project.
+How to use it:
+Simply run the included .py Python file.
+
+Note:
+This is an early proof-of-concept—a quick and dirty first version. It doesn't produce meaningful results yet, and there's still a lot of work to be done.
+
 # bottom-up-macroeconomics
 Macroeconomics Agent Based Modeling (ABM). Evaluate how governments actions influence different economic attributes that ultimately affects citizens'happiness 
 
