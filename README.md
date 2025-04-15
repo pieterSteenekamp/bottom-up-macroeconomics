@@ -1,29 +1,25 @@
-Proof of Concept (Toy Model): Agent-Based Model of Macroeconomic Choices and Citizen Happiness
+Using Agent-Based Modeling (ABM) to Explore Macroeconomics from the Bottom Up
 
-Introduction
+This is an early interim step in the development of an agent-based model of macroeconomics—built from the bottom up—to help capture the complex and often unexpected behaviors that emerge in economic systems. While far from perfect, the goal is to gain at least some insight into the non-intuitive dynamics of real-world economies.
 
-The macroeconomy is a complex, emergent system, and conventional top-down modeling approaches are often ill-suited for capturing its dynamic and adaptive nature. Agent-Based Modeling (ABM), by contrast, is better equipped to simulate such systems from the bottom up.
-This project presents a simple ABM "toy model" that explores the relationship between macroeconomic decisions and citizen happiness. The underlying idea is that economic indicators are merely proxies — tools for achieving what should be the ultimate goal of macroeconomic policy: the well-being of citizens. It's clearly suboptimal if everyone is wealthy but miserable. At the same time, economic prosperity undeniably plays a key role in overall happiness.
+The model is implemented in Python using the Mesa ABM library.
 
-Purpose of the Model
+Its broader purpose is to explore questions such as:
 
-This is not intended to be a comprehensive or fully functional macroeconomic model. Rather, it serves as a proof of concept — a toy model that demonstrates, in principle, how we might simulate and explore the dynamic interplay between macroeconomic policy, international trade, cultural factors, and citizen happiness.
+What macroeconomic choices lead to greater happiness in different types of societies?
 
-The model is designed to help explore important and complex questions such as:
-•	What kinds of macroeconomic choices lead to greater happiness in different types of societies?
-•	How do fiscal and monetary policies affect long-term well-being?
-•	How does international trade between unequal countries impact both sides?
+How do fiscal and monetary policies impact long-term well-being?
 
-Despite its simplicity, a model like this has significant value. In any discussion of macroeconomic policy, people bring their own informal mental models of how the economy should behave. A transparent, working model makes it easier to see the assumptions driving outcomes. While disagreements may persist, it's productive to identify and debate these underlying assumptions explicitly.
+How does international trade between unequal countries affect both parties?
 
-Gratitude to AI
+In this initial version, countries, businesses, and citizens (the “agents”) are set up randomly. Although the simulation runs and produces output, the results are still largely noise and should not yet be taken seriously.
 
-In developing this model, I made extensive use of several AI platforms. The conceptual framework and core ideas are my own, but I’m deeply grateful for the support and insights provided by the following tools:
+While the high-level design is entirely my own—something current AI cannot yet replicate—I gratefully acknowledge the detailed coding support provided by several free AI tools. These "assistants" have been invaluable in bringing the project this far. Thanks to:
 
-•	Claude
+Claude
 
-•	Grok
+ChatGPT
 
-•	ChatGPT
+Grok
 
-•	Microsoft Copilot
+Microsoft Copilot
